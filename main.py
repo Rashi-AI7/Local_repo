@@ -44,5 +44,9 @@ print(checkifpalindrome(takeinput()))
 # a function for running the program until the user wants
 
 choice = input("Do you want to check another string? (yes/no): ").strip().lower()
-if choice != 'yes':
-        print("Exiting the palindrome checker.")
+if choice != 'yes': 
+    print("Exiting the palindrome checker.")
+    break
+    
+    
+    
